@@ -1,0 +1,37 @@
+/*/////////////////////////HEADER//////////////////////////////*/
+
+.logo {
+    float:left;
+}
+
+h1 {
+    padding-left: 20px;
+    float:left;
+}
+
+ .clear {
+     clear:both;
+ }
+
+.navbar {
+    margin-left: 15px;
+}
+
+.navbar button {
+    margin-top:10px;
+}
+
+
+/*/////////////////////////CONTAINER 1 and 2//////////////////////////////*/
+.section {
+    border: solid 1px black;
+    margin-bottom:30px;
+}
+
+h2 {
+    margin-top:0;
+}
+
+.content {
+    padding:2px;
+}

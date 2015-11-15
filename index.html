@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <!--mobiles devices!-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.ico" />
+    <title>cheat sheet html</title>
+</head>
+
+<body id="top_of_page">
+
+    <header>
+        <img class="logo hidden-xs hidden-sm" src="media/logo.png" alt="image du logo" />
+        <h1>Cheat Sheet HTML5</h1>
+        <nav class="navbar pull-right">
+            <a href="#Document_Page information"><button class="btn btn-success">Document / Page information</button></a>
+            <a href="#Document_structure"><button class="btn btn-success">Document structure</button></a>
+            <a href="#Links"><button class="btn btn-success">Links</button></a>
+            <a href="#Images"><button class="btn btn-success">Images</button></a>
+            <a href="#Tables"><button class="btn btn-success">Tables</button></a>
+            <a href="#Text_Markup"><button class="btn btn-success">Text Markup</button></a>
+            <a href="#Lists"><button class="btn btn-success">Lists</button></a>
+            <a href="#Forms_Objects"><button class="btn btn-success">Forms / Objects</button></a>
+            <a href="#Empty_elements"><button class="btn btn-success">Empty elements</button></a>
+
+        </nav>
+
+    </header>
+
+
+    <div class="clear"></div>
+
+
+    <div class="container-fluid">
+
+        <div class="container-1 col-xs-12 col-md-6">
+            <div class="section">
+                <h2 class="bg-success" id="Document_Page information">Document / Page information</h2>
+                <div class="content">
+                    <table class="table table-striped">
+                        <tr>
+                            <td>&lt;!DOCTYPE&gt;</td>
+                            <td>Version of HTML</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;html&gt;</td>
+                            <td>HTML document - root tag</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;head&gt;</td>
+                            <td>Page information</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;body&gt;</td>
+                            <td>Page contents</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;base/&gt;</td>
+                            <td>Base URL</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;meta/&gt;</td>
+                            <td>Meta data</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;title&gt;</td>
+                            <td>Title</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;link/&gt;</td>
+                            <td>Relevant resource</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;style/&gt;</td>
+                            <td>Style resource</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;script/&gt;</td>
+                            <td>Script resource</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;Commentaires&gt;</td>
+                            <td>&lt;!-- Comment text --&gt;</td>
+                        </tr>
+                    </table>
+                </div>
+                <!--#content-->
+                <a href="#top_of_page">Back to Top</a>
+            </div>
+            <!--#section-->
+
+            <div class="section">
+                <h2 class="bg-success" id="Document_structure">Document structure</h2>
+                <div class="content">
+                    <table class="table table-striped">
+                        <tr>
+                            <td>&lt;header&gt;</td>
+                            <td>Header</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;h[1-6]&gt;</td>
+                            <td>Heading</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;div&gt;</td>
+                            <td>Page section (block)</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;span&gt;</td>
+                            <td>Inline section</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;p&gt;</td>
+                            <td>Paragraph</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;br /&gt;</td>
+                            <td>Line break</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;hr /&gt;</td>
+                            <td>Horizontal rule</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;footer&gt;</td>
+                            <td>Footer</td>
+                        </tr>
+                    </table>
+                </div>
+                <!--#content-->
+                <a href="#top_of_page">Back to Top</a>
+            </div>
+            <!--#section-->
+
+
+            <div class="section">
+                <h2 class="bg-success" id="Links">Links</h2>
+                <div class="content">
+                    <table class="table table-striped">
+                        <tr>
+                            <td>&lt;a href=""&gt;</td>
+                            <td>Page link</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;a href="mailto"&gt;</td>
+                            <td>Email link</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;a name="name"&gt;</td>
+                            <td>Anchor</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;a href="#name"&gt;</td>
+                            <td>Link to anchor</td>
+                        </tr>
+                    </table>
+                </div>
+                <!--#content-->
+                <a href="#top_of_page">Back to Top</a>
+            </div>
+            <!--#section-->
+
+            <div class="section">
+                <h2 class="bg-success" id="Images">Images</h2>
+                <div class="content">
+                    <table class="table table-striped">
+                        <tr>
+                            <td>&lt;img /&gt;</td>
+                            <td>Image</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;map /&gt;</td>
+                            <td>Image Map</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;area /&gt;</td>
+                            <td>Area of Image Map</td>
+                        </tr>
+
+                    </table>
+                </div>
+                <!--#content-->
+                <a href="#top_of_page">Back to Top</a>
+            </div>
+            <!--#section-->
+
+            <div class="section">
+                <h2 class="bg-success" id="Tables">Tables</h2>
+                <div class="content">
+                    <table class="table table-striped">
+                        <tr>
+                            <td>&lt;table&gt;</td>
+                            <td>Table</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;caption&gt;</td>
+                            <td>Caption</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;thead&gt;</td>
+                            <td>Table header</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;tbody&gt;</td>
+                            <td>Table body</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;tfoot&gt;</td>
+                            <td>Table footer</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;colgroup&gt;</td>
+                            <td>Column group</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;col /&gt;</td>
+                            <td>Column</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;tr&gt;</td>
+                            <td>Table row</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;th&gt;</td>
+                            <td>Header cell</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;td&gt;</td>
+                            <td>Table cell</td>
+                        </tr>
+
+                    </table>
+                </div>
+                <!--#content-->
+                <a href="#top_of_page">Back to Top</a>
+            </div>
+            <!--#section-->
+
+        </div>
+        <!--#container-1-->
+
+        <div class="container-2 col-xs-12 col-md-6">
+            <div class="section">
+                <h2 class="bg-success" id="Text_Markup">Text Markup</h2>
+                <div class="content">
+                    <table class="table table-striped">
+                        <tr>
+
+                            <td>&lt;strong&gt;</td>
+                            <td>Strong emphasis</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;em&gt;</td>
+                            <td>Emphasis</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;blockquote&gt;</td>
+                            <td>Long quotation</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;q&gt;</td>
+                            <td>Short quotation</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;abbr&gt;</td>
+                            <td>Abbreviation</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;acronym&gt;</td>
+                            <td>Acronym</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;address&gt;</td>
+                            <td>Address</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;pre&gt;</td>
+                            <td>Pre-formatted text</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;dfn&gt;</td>
+                            <td>Definition</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;code&gt;</td>
+                            <td>Code</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;cite&gt;</td>
+                            <td>Citation</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;del&gt;</td>
+                            <td>Deleted text</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;ins&gt;</td>
+                            <td>Inserted text</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;sub&gt;</td>
+                            <td>Subscript</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;sup&gt;</td>
+                            <td>Superscript</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;bdo&gt;</td>
+                            <td>Text direction</td>
+                        </tr>
+
+                    </table>
+                </div>
+                <!--#content-->
+                <a href="#top_of_page">Back to Top</a>
+            </div>
+            <!--#section-->
+
+
+            <div class="section">
+                <h2 class="bg-success" id="Lists">Lists</h2>
+                <div class="content">
+                    <table class="table table-striped">
+                        <tr>
+                            <td>&lt;ol&gt;</td>
+                            <td>Ordered list</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;ul&gt;</td>
+                            <td>Unordered list</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;li&gt;</td>
+                            <td>List item</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;dl&gt;</td>
+                            <td>Definition list</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;dt&gt;</td>
+                            <td>Definition item</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;dd&gt;</td>
+                            <td>Term description</td>
+                        </tr>
+                    </table>
+                </div>
+                <!--#content-->
+                <a href="#top_of_page">Back to Top</a>
+            </div>
+            <!--#section-->
+
+
+
+
+            <div class="section">
+                <h2 class="bg-success" id="Forms_Objects">Forms / Objects</h2>
+                <div class="content">
+                    <table class="table table-striped">
+                        <tr>
+                            <td>&lt;form&gt;</td>
+                            <td>Form</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;fieldset&gt;</td>
+                            <td>Collection of fields</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;legend&gt;</td>
+                            <td>Form legend</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;label&gt;</td>
+                            <td>Input label</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;input /&gt;</td>
+                            <td>Form input</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;select&gt;</td>
+                            <td>Drop-down box</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;optgroup&gt;</td>
+                            <td>Group of options</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;option&gt;</td>
+                            <td>Drop-down option</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;textarea&gt;</td>
+                            <td>Large text input</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;button&gt;</td>
+                            <td>Button</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;object&gt;</td>
+                            <td>Object</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;param /&gt;</td>
+                            <td>Parameter</td>
+                        </tr>
+                    </table>
+                </div>
+                <!--#content-->
+                <a href="#top_of_page">Back to Top</a>
+            </div>
+            <!--#section-->
+
+
+
+
+
+            <div class="section">
+                <h2 class="bg-success" id="Empty_elements">Empty elements</h2>
+                <div class="content">
+                    <table class="table table-striped">
+                        <tr>
+                            <td>&lt;area /&gt;</td>
+                            <td>&lt;img /&gt;</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;base /&gt;</td>
+                            <td>&lt;input /&gt;</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;br /&gt;</td>
+                            <td>&lt;link /&gt;</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;col /&gt;</td>
+                            <td>&lt;meta /&gt;</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;hr /&gt;</td>
+                            <td>&lt;param /&gt;</td>
+                        </tr>
+                    </table>
+                </div>
+                <!--#content-->
+                <a href="#top_of_page">Back to Top</a>
+            </div>
+            <!--#section-->
+
+        </div>
+        <!--#container-2-->
+
+    </div>
+    <!--#container-fluid-->
+
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
