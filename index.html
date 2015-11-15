@@ -20,7 +20,7 @@
             <a href="#Document_Page information"><button class="btn btn-success">Document / Page information</button></a>
             <a href="#Document_structure"><button class="btn btn-success">Document structure</button></a>
             <a href="#Links"><button class="btn btn-success">Links</button></a>
-            <a href="#Images"><button class="btn btn-success">Images</button></a>
+            <a href="#Images"><button class="btn btn-success">Images / Videos</button></a>
             <a href="#Tables"><button class="btn btn-success">Tables</button></a>
             <a href="#Text_Markup"><button class="btn btn-success">Text Markup</button></a>
             <a href="#Lists"><button class="btn btn-success">Lists</button></a>
@@ -83,7 +83,11 @@
                             <td>Script resource</td>
                         </tr>
                         <tr>
-                            <td>&lt;Commentaires&gt;</td>
+                            <td>&lt;noscript&gt;</td>
+                            <td>Alternative content to the script</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;commentaires&gt;</td>
                             <td>&lt;!-- Comment text --&gt;</td>
                         </tr>
                     </table>
@@ -110,12 +114,32 @@
                             <td>Page section (block)</td>
                         </tr>
                         <tr>
+                            <td>&lt;section&gt;</td>
+                            <td>Page section (block)</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;aside&gt;</td>
+                            <td>External content aside</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;article&gt;</td>
+                            <td>EXternal content</td>
+                        </tr>
+                        <tr>
                             <td>&lt;span&gt;</td>
                             <td>Inline section</td>
                         </tr>
                         <tr>
                             <td>&lt;p&gt;</td>
                             <td>Paragraph</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;progress&gt;</td>
+                            <td>Progress bar</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;nav&gt;</td>
+                            <td>Navigation section</td>
                         </tr>
                         <tr>
                             <td>&lt;br /&gt;</td>
@@ -129,6 +153,11 @@
                             <td>&lt;footer&gt;</td>
                             <td>Footer</td>
                         </tr>
+                        <tr>
+                            <td>&lt;details&gt;</td>
+                            <td>Section with visible title hidden content</td>
+                        </tr>
+
                     </table>
                 </div>
                 <!--#content-->
@@ -165,7 +194,7 @@
             <!--#section-->
 
             <div class="section">
-                <h2 class="bg-success" id="Images">Images</h2>
+                <h2 class="bg-success" id="Images">Images / Videos</h2>
                 <div class="content">
                     <table class="table table-striped">
                         <tr>
@@ -179,6 +208,42 @@
                         <tr>
                             <td>&lt;area /&gt;</td>
                             <td>Area of Image Map</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;audio&gt;</td>
+                            <td>Sound</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;embed&gt;</td>
+                            <td>Insertion of multimedia items</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;canvas&gt;</td>
+                            <td>Programming graphical effects</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;source&gt;</td>
+                            <td>Source for audio and video tags</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;track&gt;</td>
+                            <td>Text with audio and video</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;video&gt;</td>
+                            <td>Video</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;figure&gt;</td>
+                            <td>Figure</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;fidcaption&gt;</td>
+                            <td>Figure description</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;iframe&gt;</td>
+                            <td>Local or remote display web page in the current page</td>
                         </tr>
 
                     </table>
@@ -258,6 +323,14 @@
                             <td>Emphasis</td>
                         </tr>
                         <tr>
+                            <td>&lt;b&gt;</td>
+                            <td>Bold</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;s&gt;</td>
+                            <td>Crossed text</td>
+                        </tr>
+                        <tr>
                             <td>&lt;blockquote&gt;</td>
                             <td>Long quotation</td>
                         </tr>
@@ -278,6 +351,10 @@
                             <td>Address</td>
                         </tr>
                         <tr>
+                            <td>&lt;time&gt;</td>
+                            <td>Date or time</td>
+                        </tr>
+                        <tr>
                             <td>&lt;pre&gt;</td>
                             <td>Pre-formatted text</td>
                         </tr>
@@ -292,6 +369,18 @@
                         <tr>
                             <td>&lt;cite&gt;</td>
                             <td>Citation</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;u&gt;</td>
+                            <td>Annotation</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;small&gt;</td>
+                            <td>Small note of explanation</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;wbr&gt;</td>
+                            <td>Line feed</td>
                         </tr>
                         <tr>
                             <td>&lt;del&gt;</td>
@@ -312,6 +401,18 @@
                         <tr>
                             <td>&lt;bdo&gt;</td>
                             <td>Text direction</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;main&gt;</td>
+                            <td>Insertion content</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;mark&gt;</td>
+                            <td>Visual development</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;var&gt;</td>
+                            <td>Indicate a variable within &lt;code&gt; or &lt;pre&gt;</td>
                         </tr>
 
                     </table>
@@ -383,6 +484,18 @@
                         <tr>
                             <td>&lt;input /&gt;</td>
                             <td>Form input</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;output /&gt;</td>
+                            <td>Result of calculation</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;data&gt;</td>
+                            <td>Technical content</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;datalist&gt;</td>
+                            <td>Auto completion of input element</td>
                         </tr>
                         <tr>
                             <td>&lt;select&gt;</td>
